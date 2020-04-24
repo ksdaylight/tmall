@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nstwebcloud" />
         <module name="tmall_springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nstwebcloud" target="1.8" />
       <module name="tmall_springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
